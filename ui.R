@@ -55,8 +55,8 @@ shinyUI(fluidPage(
                                 # instructions     
                                 sidebarPanel(
                                   p("The playground is a place to try anything with R"),
-                                  p(em("Instructions and simple examples")),
-                                  p(code("myVar <- 'Hello world!'")),
+                                  p("There is a data object 'D' which you can play with"),
+                                  p(code("head(D)")),
                                   br(),
                                   br()
                                 ),
